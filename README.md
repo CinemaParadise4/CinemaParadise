@@ -10,7 +10,7 @@ Cinema Paradiso, with a frontend built in React & Redux and a backend built in D
 
 Check out [FRONTEND LIVE DEMO]() here!!
 
-Check out [API LIVE DEMO]() here!!
+Check out [API LIVE DEMO](https://cinema-paradise1-backend.herokuapp.com/) here!!
 
 ## Tech used
 
