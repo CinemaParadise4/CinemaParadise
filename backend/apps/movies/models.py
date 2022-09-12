@@ -13,7 +13,7 @@ class Movie(models.Model):
     class Meta(object):
         db_table = 'movie'
     name = models.CharField(
-        'Name', blank=False, null=False, max_length=50, db_index=True
+        'Name', blank=False, null=False, max_length=55, db_index=True
     )
     description = models.TextField(
         'description', blank=False, null=False, max_length=500
@@ -28,7 +28,7 @@ class Movie(models.Model):
         'duration', blank=False, null=False, default=50
     )
     state = models.CharField(
-        'state', blank=False, null=False, max_length=45, default='USA'
+        'state', blank=False, null=False, max_length=50, default='USA'
     )
     release_type = models.CharField(
         'release_type', blank=False, null=False, max_length=60, choices=MY_CHOICES
