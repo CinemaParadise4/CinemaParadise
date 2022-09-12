@@ -25,10 +25,10 @@ class Movie(models.Model):
         'image mobile', blank=True, null=True
     )
     movie_duration = models.IntegerField(
-        'duration', blank=False, null=False, default=45
+        'duration', blank=False, null=False, default=50
     )
     state = models.CharField(
-        'state', blank=False, null=False, max_length=50, default='USA'
+        'state', blank=False, null=False, max_length=45, default='USA'
     )
     release_type = models.CharField(
         'release_type', blank=False, null=False, max_length=60, choices=MY_CHOICES
