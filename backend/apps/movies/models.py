@@ -31,7 +31,7 @@ class Movie(models.Model):
         'state', blank=False, null=False, max_length=50, default='USA'
     )
     release_type = models.CharField(
-        'release_type', blank=False, null=False, max_length=50, choices=MY_CHOICES
+        'release_type', blank=False, null=False, max_length=60, choices=MY_CHOICES
     )
     category_id = models.ForeignKey(
         Category, on_delete=models.CASCADE
